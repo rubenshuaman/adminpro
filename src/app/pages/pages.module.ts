@@ -19,6 +19,8 @@ import { GraphComponent } from "./graph/graph.component";
 import { IncrementComponent } from "../components/increment/increment.component";
 import { GraphDonaComponent } from '../components/graph-dona/graph-dona.component';
 import { AccoutSettingComponent } from './accout-setting/accout-setting.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -28,7 +30,9 @@ import { AccoutSettingComponent } from './accout-setting/accout-setting.componen
         GraphComponent,
         IncrementComponent,
         GraphDonaComponent,
-        AccoutSettingComponent
+        AccoutSettingComponent,
+        PromesasComponent,
+        RxjsComponent
     ],
     exports: [
         PagesComponent,
