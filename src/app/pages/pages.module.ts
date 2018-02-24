@@ -18,6 +18,7 @@ import { ProgressComponent } from "./progress/progress.component";
 import { GraphComponent } from "./graph/graph.component";
 import { IncrementComponent } from "../components/increment/increment.component";
 import { GraphDonaComponent } from '../components/graph-dona/graph-dona.component';
+import { AccoutSettingComponent } from './accout-setting/accout-setting.component';
 
 @NgModule({
     declarations: [
@@ -26,15 +27,14 @@ import { GraphDonaComponent } from '../components/graph-dona/graph-dona.componen
         ProgressComponent,
         GraphComponent,
         IncrementComponent,
-        GraphDonaComponent
+        GraphDonaComponent,
+        AccoutSettingComponent
     ],
     exports: [
         PagesComponent,
         DashboardComponent,
         ProgressComponent,
-        GraphComponent,
-        IncrementComponent,
-        GraphDonaComponent
+        GraphComponent
     ],
     imports: [
         PAGES_ROUTES,
